@@ -1,0 +1,17 @@
+body {
+    background-color: #1b262c;
+    color: aliceblue;
+}
+
+img {
+    height: 400px;
+    width: 400px;
+}
+
+.container {
+    background-color: #0f4c75;
+}
+
+.jumbotron {
+    background-color: #3282b8;
+}

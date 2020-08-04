@@ -1,0 +1,74 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/css.css">
+    <title>Calendario</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="jumbotron text-center">
+                <h1>Famosos</h1>
+            </div>
+        </div>
+        <div class="main">
+            <div class="row">
+                <div class="col-md-6">
+                    <form action="/" method="POST">
+                        <div class="form-group">
+                            <label for="">Nombre:</label><br>
+                            <input type="text" name="nombre" value="" placeholder="Introduce tu nombre" class="nombre">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Mes de nacimiento</label> <br>
+                            <select name="mes" class="mes">
+                                    <option value="-">Elige un mes</option>
+                                    <option value="0">Enero</option>
+                                    <option value="1">Febrero</option>
+                                    <option value="2">Marzo</option>
+                                    <option value="3">Abril</option>
+                                    <option value="4">Mayo</option>
+                                    <option value="5">Junio</option>
+                                    <option value="6">Julio</option>
+                                    <option value="7">Agosto</option>
+                                    <option value="8">Septiembre</option>
+                                    <option value="9">Octubre</option>
+                                    <option value="10">Noviembre</option>
+                                    <option value="11">Diciembre</option>
+                                </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Año nacimiento</label> <br>
+                            <input type="text" name="anio" value="" class="anio" placeholder="Introduce tu año de nacimiento">
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" name="button">Enviar</button>
+                        </div>
+
+
+
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <img src="imagenes/meses.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+    <script src="index.js" language="javascript" type="text/javascript"></script>
+    <script src="calendario.js"></script>
+</body>
+
+</html>
